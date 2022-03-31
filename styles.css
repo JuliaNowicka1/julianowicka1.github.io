@@ -14,8 +14,8 @@ body {
     font-size: 24px;
     text-transform: uppercase; 
     position: absolute;
-    top: 26rem;
-    right: 12rem;
+    top: 12.5%;
+    right: 20%;
     letter-spacing: 4px;
 }
 
@@ -32,13 +32,36 @@ h1{
     font-size: 5ch;
 }
 
+.menu ul{
+    list-style: none;
+
+}
+
+.menu ul li{
+    margin: 0 1rem;
+    padding: 1 rem;
+    display: block;
+}
+
+.menu a{
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none;
+}
+
+nav li a{
+    display: block;
+    color: #372a28;
+    font-family: 'Arbutus Slab', serif;
+}
+
 .about{
     color: #372a28;
     font-family: 'Arbutus Slab', serif;
     font-size: 5ch;
     padding-left: 4rem;
     position:absolute;
-    top: 56rem;
+    top: 50rem;
 }
 
 .about_text{
@@ -59,6 +82,29 @@ h1{
     padding-left: 4rem;
     position:absolute;
     top: 90rem;
+}
+
+.pp{
+    color: #372a28;
+    font-family: 'Arbutus Slab', serif;
+    font-size: 5ch;
+    padding-left: 4rem;
+    position:absolute;
+    top: 140rem;
+}
+
+.contactme{
+    color: #372a28;
+    font-family: 'Arbutus Slab', serif;
+    font-size: 5ch;
+    padding-left: 4rem;
+    position:absolute;
+    top: 190rem;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
 }
 
 /**********  images  ***********/
@@ -99,6 +145,17 @@ h1{
     right: 52%;
     left: 48%;
 }
+
+section{
+ width: 100%;
+ height: 100vh;
+ display: flex;
+/* Scroll Snap */
+ scroll-snap-align: center;
+}
+
+
+
 
 
 
